@@ -3752,7 +3752,7 @@ __metadata:
     "@hoprnet/hopr-real": "workspace:packages/real"
     "@libp2p/crypto": 1.0.0
     "@libp2p/interface-connection": 1.0.1
-    "@libp2p/interface-connection-manager": 1.0.0
+    "@libp2p/interface-connection-manager": 1.0.3
     "@libp2p/interface-keys": 1.0.3
     "@libp2p/interface-peer-id": 1.0.2
     "@libp2p/interface-peer-store": 1.0.0
@@ -4026,14 +4026,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@libp2p/interface-connection-manager@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@libp2p/interface-connection-manager@npm:1.0.0"
+"@libp2p/interface-connection-manager@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@libp2p/interface-connection-manager@npm:1.0.3"
   dependencies:
-    "@libp2p/interface-connection": ^1.0.0
+    "@libp2p/interface-connection": ^3.0.0
     "@libp2p/interface-peer-id": ^1.0.0
     "@libp2p/interfaces": ^3.0.0
-  checksum: cab031a3efd3ea310984901b9b5b4fa047413a767584e4e9dde575ebc9b73f3dc11a4f4159edac79bd3c166ca544c34cb6b0ec667ebad8cc35bda728a26bdc44
+  checksum: 26eae303a43f3d7e1cbe70ee16ae26560284e9299930f221eb9041ef0e34ce04a27ccd80e6199aa747892e63090c999a8b00456f9e1181cbaffe5ba80ab8ab86
   languageName: node
   linkType: hard
 
@@ -4046,6 +4046,19 @@ __metadata:
     "@multiformats/multiaddr": ^10.2.0
     it-stream-types: ^1.0.4
   checksum: 0385cb0ca6166391b3e6da1c202a54a6f28e33e4850eb004ed81f61292444c57f9f3741c27e560eef5b3d4bdf276bdf3f1e3bdbb05692cf1da4f65b4c9b06fde
+  languageName: node
+  linkType: hard
+
+"@libp2p/interface-connection@npm:^3.0.0":
+  version: 3.0.1
+  resolution: "@libp2p/interface-connection@npm:3.0.1"
+  dependencies:
+    "@libp2p/interface-peer-id": ^1.0.0
+    "@libp2p/interfaces": ^3.0.0
+    "@multiformats/multiaddr": ^10.2.0
+    it-stream-types: ^1.0.4
+    uint8arraylist: ^2.1.1
+  checksum: 80806519c837c9218bc9302d50e912ed7d2a3e9501addf50ba8b2e8e9fb7f34639e87eaf0704a884f16126fd82b4e84d9d7ec9bd1cbf1e1d725731921cbfa29c
   languageName: node
   linkType: hard
 
@@ -24074,7 +24087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uint8arraylist@npm:^2.0.0":
+"uint8arraylist@npm:^2.0.0, uint8arraylist@npm:^2.1.1":
   version: 2.3.2
   resolution: "uint8arraylist@npm:2.3.2"
   dependencies:
