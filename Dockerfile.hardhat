@@ -1,5 +1,5 @@
 # use slim version of node on Debian bullseye for smaller image sizes during build
-FROM node:16-bullseye-slim@sha256:8265ac132f720998222008355e11535caf53d6bccecbb562a055605138975b4e as build
+FROM node:16-bullseye-slim@sha256:18ae6567b623f8c1caada3fefcc8746f8e84ad5c832abd909e129f6b13df25b4 as build
 
 LABEL description="This image launches a hardhat node running a local network with the HOPR contracts deployed and available."
 
